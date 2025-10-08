@@ -3,7 +3,7 @@ import { useWeatherStore } from "../../store/weather-state";
 import { weatherImages } from "../../tools/weather-images";
 import Skeleton from '@mui/material/Skeleton';
 
-import style from "./dailyForecast.module.css";
+import style from "./DailyForecast.module.css";
 
 
 function getWeatherImage(code) {
