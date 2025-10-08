@@ -2,7 +2,7 @@ import { Card, CardContent, Typography, Grid } from "@mui/material";
 import { useWeatherStore } from '../../store/weather-state';
 import Skeleton from '@mui/material/Skeleton';
 
-import style from '../AdditionalPart/addPart.module.css'
+import style from '../AdditionalPart/AddPart.module.css'
 
 
 function AdditionalPart({loading, error}) {
